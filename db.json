@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "name": "Maor Fleiman",
+      "email": "maorfl14@gmail.com",
+      "password": "12345678",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "Biran",
+      "email": "biran96@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Microsoft Earphones",
+      "price": 80,
+      "category": "Earphones & Headphones",
+      "description": "The Microsoft new earphones with high quality.",
+      "image": "microsoft1.webp",
+      "id": 1
+    },
+    {
+      "name": "Microsoft Headphones",
+      "price": 200,
+      "category": "Earphones & Headphones",
+      "description": "The Microsoft new earphones with high quality.",
+      "image": "microsoft2.webp",
+      "id": 2
+    },
+    {
+      "name": "rew",
+      "price": 423,
+      "category": "fdasfdsa",
+      "image": "sadfsa",
+      "description": "fdsafafasd",
+      "id": 3
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "active": true,
+      "products": [
+        {
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Earphones & Headphones",
+          "description": "The Microsoft new earphones with high quality.",
+          "image": "microsoft2.webp",
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "name": "rew",
+          "price": 423,
+          "category": "fdasfdsa",
+          "image": "sadfsa",
+          "description": "fdsafafasd",
+          "id": 3
+        },
+        {
+          "name": "rew",
+          "price": 423,
+          "category": "fdasfdsa",
+          "image": "sadfsa",
+          "description": "fdsafafasd",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "products": [
+        {
+          "name": "rew",
+          "price": 423,
+          "category": "fdasfdsa",
+          "image": "sadfsa",
+          "description": "fdsafafasd",
+          "id": 3
+        }
+      ],
+      "active": true,
+      "id": 2
+    }
+  ]
+}
